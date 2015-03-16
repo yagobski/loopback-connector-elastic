@@ -2,6 +2,8 @@
 
 Basic Elasticsearch datasource connector for [Loopback](http://strongloop.com/node-js/loopback/).
 
+This version can have multiple index and it will use Model name like Index.
+
 ## Setting up Elasticsearch
 - Download and install [Elasticsearch](http://www.elasticsearch.org)
 - Goto /elasticsearch-path/bin$ and execute ./elasticsearch
@@ -77,8 +79,7 @@ Edit **datasources.json** and set:
         ...
         "log": "trace",
         "defaultSize": [Rows],
-        "index": [IndexName],
-        "type": [TypeName]
+        "index": [IndexName]
     }
     
 Required:
@@ -93,7 +94,6 @@ Optional:
 - **Log:** logging option.
 - **DefaultSize:** Rows to return per page.
 - **Index:** Search engine specific index.
-- **Type:** Search engine specific type.
 
 ## Run example
 Goto to _examples_ folder and run:
