@@ -1,0 +1,65 @@
+{
+  "name": "loopback-connector-elastic",
+  "version": "0.0.1",
+  "description": "Connect LoopBack to Elastic engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "loopback",
+    "elastic",
+    "loopback-connector",
+    "connector"
+  ],
+  "author": {
+    "name": "Humain2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humain2/loopback-connector-elastic.git"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/humain2/loopback-connector-elastic/blob/master/LICENCE"
+  },
+  "bugs": {
+    "url": "https://github.com/humain2/loopback-connector-elastic/issues"
+  },
+  "homepage": "https://github.com/humain2/loopback-connector-elastic",
+  "dependencies": {
+    "async": "^0.9.0",
+    "elasticsearch": "^2.4.3",
+    "loopback-connector": "^1.1.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.1",
+    "mocha": "^1.21.4"
+  },
+  "gitHead": "28b87d85f04e4b162ca5a8fdf5e5c68f6bb879da",
+  "_id": "loopback-connector-elastic@0.0.1",
+  "_shasum": "3d776639667063ce04f98f133fe9186deba468d7",
+  "_from": "loopback-connector-elastic@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "humain2",
+    "email": "tazacreation@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "humain2",
+      "email": "tazacreation@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "3d776639667063ce04f98f133fe9186deba468d7",
+    "tarball": "http://registry.npmjs.org/loopback-connector-elastic/-/loopback-connector-elastic-0.0.1.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/loopback-connector-elastic/-/loopback-connector-elastic-0.0.1.tgz"
+}
